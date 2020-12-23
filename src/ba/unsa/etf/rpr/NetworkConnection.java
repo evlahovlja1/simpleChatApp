@@ -27,7 +27,7 @@ public abstract class NetworkConnection {
 
     public void closeConnection() throws Exception {
         connectionThread.socket.close();
-    }'
+    }
 
     //po pravilu trebalo bi napraviti 2 klase za server i klijent
     //ali za ovaj jednostavan slucaj koristimo jednu
